@@ -1,11 +1,13 @@
 {
-  "name": "cnab-converter",
-  "version": "1.0.0",
+  "name": "@flow-fintech/pp2-file",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist/**"],
+  "files": [
+    "dist/**"
+  ],
   "exports": {
     ".": {
       "import": {
@@ -28,12 +30,20 @@
   "keywords": [],
   "author": "flow-fintech",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.13.1",
     "ts-node": "^10.9.2",
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flow-Banco/pp2-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flow-Banco/pp2-file/issues"
+  },
+  "homepage": "https://github.com/Flow-Banco/pp2-file#readme",
+  "description": ""
 }
